@@ -193,10 +193,10 @@ bar {
 }
 
 # Nitrogen
-exec nitrogen --restore
+# exec nitrogen --restore
 
 # Picom
-exec picom
+# exec picom
 
 # Feh bg
-exec feh --bg-fill ~/Downloads/wallpaper.jpg
+# exec feh --bg-fill ~/Wallpapers/sunset.jpg
