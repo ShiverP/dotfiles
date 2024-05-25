@@ -1,8 +1,0 @@
-[shell]
-program = "/usr/bin/zsh"
-
-[window]
-opacity = 0.4
-
-[font]
-normal = { family = "RobotoMono" }

@@ -2,11 +2,7 @@
 program = "/usr/bin/zsh"
 
 [window]
-opacity = 0.2
+opacity = 0.4
 
 [font]
-normal = { family = "RobotoMono Nerd Font", style = "Regular" }
-size = 12
-
-[cursor]
-style = "Underline"
+normal = { family = "RobotoMono Nerd Font" }
