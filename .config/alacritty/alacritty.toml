@@ -1,0 +1,12 @@
+[shell]
+program = "/usr/bin/zsh"
+
+[window]
+opacity = 0.2
+
+[font]
+normal = { family = "RobotoMono", style = "Regular" }
+size = 12
+
+[cursor]
+style = "Underline"
