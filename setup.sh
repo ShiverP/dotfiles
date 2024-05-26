@@ -20,7 +20,7 @@ cd
 sudo pacman -Syu
 
 # Install essential packages
-sudo pacman -S git github-cli neovim zsh fzf base-devel alacritty dolphin curl wget wofi stow ttf-font-awesome nerd-fonts --noconfirm 
+sudo pacman -S git github-cli neovim zsh fzf base-devel alacritty dolphin curl wget wofi stow ttf-font-awesome nerd-fonts swaybg -noconfirm 
 
 # Uninstall redundant stuff
 sudo pacman -Rs foot --noconfirm
