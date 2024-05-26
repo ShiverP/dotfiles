@@ -95,3 +95,12 @@ alias vim='nvim'
 
 eval "$(fzf --zsh)"
 
+# Functions
+
+function acp {
+  git add .
+  git commit -m "$1"
+  git push origin main
+
+}
+

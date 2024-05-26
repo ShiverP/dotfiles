@@ -29,7 +29,7 @@ sudo pacman -Rs foot --noconfirm
 git clone https://aur.archlinux.org/yay.git
 cd yay/
 makepkg -si --noconfirm
-cd ..
+cd
 rm -rf yay/
 
 # Install yay packages
@@ -41,6 +41,7 @@ sudo chsh -s /usr/bin/zsh
 # Stow to create symlinks and bring the entire system together
 cd dotfiles
 stow .
+cd
 
 # Make project directories
 mkdir -p ~/developer/projects
@@ -48,6 +49,7 @@ cd developer/projects
 git clone https://github.com/ShiverP/game-engine.git
 git clone https://github.com/ShiverP/edens-crucible.git
 git clone https://github.com/ShiverP/chiclaps.git
+cd
 
 # Enable audio by T0912 script
 sudo sh ~/dotfiles/scripts/T0912.sh
