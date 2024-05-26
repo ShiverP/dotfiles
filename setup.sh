@@ -33,7 +33,11 @@ cd ..
 rm -rf yay/
 
 # Install yay packages
-yay -S google-chrome spotify --noconfirm
+yay -S google-chrome spotify discord_arch_electron --noconfirm
 
 # Configure shell
 sudo chsh -s /usr/bin/zsh
+
+# Stow to create symlinks and bring the entire system together
+cd dotfiles
+stow .
