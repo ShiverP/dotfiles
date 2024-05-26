@@ -5,7 +5,7 @@
 # Read `man 5 sway` for a complete reference.
 
 # Set Sway font
-font pango: RobotoMono Medium 10
+font pango: RobotoMono 10
 
 # Set gaps
 gaps inner 6
