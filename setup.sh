@@ -20,7 +20,7 @@ cd
 sudo pacman -Syu
 
 # Install essential packages
-sudo pacman -S git github-cli neovim zsh fzf base-devel alacritty dolphin curl wget wofi stow ttf-font-awesome nerd-fonts swaybg -noconfirm 
+sudo pacman -S git github-cli neovim zsh fzf base-devel alsa-tools alacritty dolphin curl wget wofi stow ttf-font-awesome nerd-fonts swaybg -noconfirm 
 
 # Uninstall redundant stuff
 sudo pacman -Rs foot --noconfirm
@@ -41,3 +41,5 @@ sudo chsh -s /usr/bin/zsh
 # Stow to create symlinks and bring the entire system together
 cd dotfiles
 stow .
+
+sudo sh scripts/T0912.sh
