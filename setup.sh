@@ -42,4 +42,12 @@ sudo chsh -s /usr/bin/zsh
 cd dotfiles
 stow .
 
-sudo sh scripts/T0912.sh
+# Make project directories
+mkdir -p ~/developer/projects
+cd developer/projects
+git clone https://github.com/ShiverP/game-engine.git
+git clone https://github.com/ShiverP/edens-crucible.git
+git clone https://github.com/ShiverP/chiclaps.git
+
+# Enable audio by T0912 script
+sudo sh ~/dotfiles/scripts/T0912.sh
