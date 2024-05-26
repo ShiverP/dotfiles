@@ -5,11 +5,14 @@
 # Read `man 5 sway` for a complete reference.
 
 # Set Sway font
-font pango: RobotoMono 10
+font pango: RobotoMono 12
 
 # Set gaps
 gaps inner 6
 gaps outer 2
+
+# Remove window titles
+default_border pixel 2
 
 ### Variables
 #
