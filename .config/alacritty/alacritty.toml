@@ -6,3 +6,6 @@ opacity = 0.4
 
 [font]
 normal = { family = "RobotoMono Nerd Font" }
+
+[cursor]
+style = {shape = "Underline", blinking = "Never"}
