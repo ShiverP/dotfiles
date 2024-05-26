@@ -3,6 +3,7 @@ program = "/usr/bin/zsh"
 
 [window]
 opacity = 0.4
+blur = true
 
 [font]
 normal = { family = "RobotoMono Nerd Font" }
