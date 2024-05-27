@@ -55,8 +55,3 @@ git clone https://github.com/ShiverP/game-engine.git
 git clone https://github.com/ShiverP/edens-crucible.git
 git clone https://github.com/ShiverP/chiclaps.git
 cd
-
-# Git user name and email 
-git config --global user.name "ShiverP"
-git config --global user.email "shivamparwat01@gmail.com"
-git config --global pull.rebase false
