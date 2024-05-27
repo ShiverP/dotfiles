@@ -55,3 +55,7 @@ git clone https://github.com/ShiverP/game-engine.git
 git clone https://github.com/ShiverP/edens-crucible.git
 git clone https://github.com/ShiverP/chiclaps.git
 cd
+
+# set up zsh (?)
+zsh
+
