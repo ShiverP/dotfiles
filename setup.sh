@@ -20,7 +20,7 @@ cd
 sudo pacman -Syu
 
 # Install essential packages
-sudo pacman -S git github-cli brightnessctl neovim zsh fzf base-devel alsa-tools alacritty dolphin curl wget wofi stow ttf-font-awesome nerd-fonts swaybg --noconfirm 
+sudo pacman -S git brightnessctl solaar neovim zsh fzf base-devel pulsemixer alsa-tools alacritty dolphin curl wget wofi stow ttf-font-awesome nerd-fonts swaybg --noconfirm 
 
 # Uninstall redundant stuff
 sudo pacman -Rs foot --noconfirm
@@ -33,7 +33,7 @@ cd
 rm -rf yay/
 
 # Install yay packages
-yay -S google-chrome spotify discord_arch_electron --noconfirm
+yay -S google-chrome spotify discord_arch_electron multimc-bin --noconfirm
 
 # Configure shell
 sudo chsh -s /usr/bin/zsh
