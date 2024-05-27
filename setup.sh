@@ -5,13 +5,13 @@
 cd /
 
 # Add lines to sudoers and pacman configs
-sudo echo "[options]
+echo "[options]
 ILoveCandy
 Color
-ParallelDownloads = 25" >> /etc/pacman.conf
+ParallelDownloads = 25" | sudo tee -a /etc/pacman.conf
 
 sudo touch /etc/sudoers.d/10-arch
-sudo echo "shiver ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers.d/10-arch 
+echo "shiver ALL=(ALL) NOPASSWD: ALL" | sudo tee -a /etc/sudoers.d/10-arch 
 
 # cd back to user home
 cd
