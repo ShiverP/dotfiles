@@ -43,10 +43,15 @@ cd dotfiles
 stow .
 cd
 
+# Spicetify ricing
+#sudo chmod 777 /opt/spotify -R
+#spicetify config current_theme #Insert theme here I guess?
+#spicetify apply
+
 # Make project directories
 mkdir -p ~/developer/projects
 cd developer/projects
-git clone git@github.com:ShiverP/game-engine.git
+git clone https://github.com/ShiverP/game-engine.git
 git clone https://github.com/ShiverP/edens-crucible.git
 git clone https://github.com/ShiverP/chiclaps.git
 cd
