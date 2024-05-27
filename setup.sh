@@ -50,6 +50,3 @@ git clone https://github.com/ShiverP/game-engine.git
 git clone https://github.com/ShiverP/edens-crucible.git
 git clone https://github.com/ShiverP/chiclaps.git
 cd
-
-# Enable audio by T0912 script
-sudo sh ~/dotfiles/scripts/T0912.sh
