@@ -39,6 +39,10 @@ yay -S google-chrome spotify discord_arch_electron multimc-bin --noconfirm
 # Configure shell
 sudo chsh -s /usr/bin/zsh
 
+# Enable sddm
+sudo systemctl enable sddm
+sudo systemctl start sddm
+
 # Stow to create symlinks and bring the entire system together
 cd dotfiles
 stow .
