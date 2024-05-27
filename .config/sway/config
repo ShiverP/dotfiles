@@ -66,6 +66,7 @@ input "type:pointer" {
 
 input "type:touchpad" {
   accel_profile flat
+  pointer_accel 0.5
   scroll_factor 0.15
   natural_scroll enabled
   dwt enabled
