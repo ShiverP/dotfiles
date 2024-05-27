@@ -21,7 +21,7 @@ sudo pacman -Syu
 
 # Install essential packages
 # sudo pacman -S git brightnessctl solaar neofetch neovim zsh fzf base-devel pulsemixer alsa-tools alacritty dolphin curl wget wofi stow steam ttf-font-awesome nerd-fonts --noconfirm 
-sudo pacman -S sway swayidle brightnessctl pavucontrol swaybg waybar grim alacritty swaylock wofi slurp xorg-wayland neofetch curl wget stow alsa-tools pulsemixer base-devel fzf zsh neovim solaar steam ttf-font-awesome nerd-fonts --noconfirm
+sudo pacman -S sway swayidle brightnessctl pavucontrol swaybg waybar grim alacritty swaylock wofi slurp xorg-xwayland neofetch curl wget stow alsa-tools pulsemixer base-devel fzf zsh neovim solaar steam ttf-font-awesome nerd-fonts --noconfirm
 
 # Uninstall redundant stuff
 #sudo pacman -Rs foot --noconfirm
