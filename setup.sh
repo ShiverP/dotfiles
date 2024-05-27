@@ -20,7 +20,7 @@ cd
 sudo pacman -Syu
 
 # Install essential packages
-sudo pacman -S git brightnessctl solaar neovim zsh fzf base-devel pulsemixer alsa-tools alacritty dolphin curl wget wofi stow ttf-font-awesome nerd-fonts swaybg --noconfirm 
+sudo pacman -S git brightnessctl solaar neovim zsh fzf base-devel pulsemixer alsa-tools alacritty dolphin curl wget wofi stow steam ttf-font-awesome nerd-fonts --noconfirm 
 
 # Uninstall redundant stuff
 sudo pacman -Rs foot --noconfirm
