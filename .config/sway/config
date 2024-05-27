@@ -62,6 +62,8 @@ input "type:keyboard" {
 
 input "type:pointer" {
   accel_profile flat
+  pointer_accel -0.5
+  scroll_factor 0.5
 }
 
 input "type:touchpad" {
