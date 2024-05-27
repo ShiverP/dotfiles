@@ -23,17 +23,17 @@ sudo pacman -Syu
 sudo pacman -S git github-cli brightnessctl neovim zsh fzf base-devel alsa-tools alacritty dolphin curl wget wofi stow ttf-font-awesome nerd-fonts swaybg --noconfirm 
 
 # Uninstall redundant stuff
-#sudo pacman -Rs foot --noconfirm
+sudo pacman -Rs foot --noconfirm
 
 # Install yay
-#git clone https://aur.archlinux.org/yay.git
-#cd yay/
-#makepkg -si --noconfirm
-#cd
-#rm -rf yay/
+git clone https://aur.archlinux.org/yay.git
+cd yay/
+makepkg -si --noconfirm
+cd
+rm -rf yay/
 
 # Install yay packages
-#yay -S google-chrome spotify discord_arch_electron --noconfirm
+yay -S google-chrome spotify discord_arch_electron --noconfirm
 
 # Configure shell
 sudo chsh -s /usr/bin/zsh
