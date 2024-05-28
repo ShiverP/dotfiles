@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 # Go into root
 cd /
 
@@ -20,8 +19,9 @@ cd
 sudo pacman -Syu
 
 # Install essential packages
-sudo pacman -S sway zip unzip swayidle sddm htop brightnessctl xdg-desktop-portal xdg-desktop-portal-wlr pavucontrol swaybg waybar grim alacritty swaylock wofi slurp xorg-xwayland neofetch curl wget stow alsa-tools pulsemixer base-devel fzf zsh neovim solaar steam --noconfirm
+sudo pacman -S sway zip unzip swayidle sddm htop brightnessctl xdg-desktop-portal blueman xdg-desktop-portal-wlr pavucontrol swaybg waybar grim alacritty swaylock wofi slurp xorg-xwayland neofetch curl wget stow alsa-tools pulsemixer github-cli dolphin base-devel fzf zsh neovim solaar steam --noconfirm
 
+# Install fonts
 sudo pacman -S ttf-font-awesome nerd-fonts --noconfirm
 
 # Uninstall redundant stuff
@@ -35,14 +35,11 @@ cd
 rm -rf yay/
 
 # Install yay packages
-yay -S google-chrome spotify webcord multimc-bin obs-studio-tytan652 autotiling --noconfirm
+yay -S google-chrome spotify webcord multimc-bin autotiling --noconfirm
+yay -S obs-studio-tytan652
 
 # Configure shell
 sudo chsh -s /usr/bin/zsh
-
-# Enable sddm
-sudo systemctl enable sddm
-sudo systemctl start sddm
 
 # Stow to create symlinks and bring the entire system together
 cd dotfiles
@@ -62,6 +59,9 @@ git clone https://github.com/ShiverP/edens-crucible.git
 git clone https://github.com/ShiverP/chiclaps.git
 cd
 
-# set up zsh (?)
+# set up zsh
 zsh
 
+# Enable and start sddm to log in
+sudo systemctl enable sddm
+sudo systemctl start sddm
