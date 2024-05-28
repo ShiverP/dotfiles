@@ -96,14 +96,18 @@ input "type:touchpad" {
     # Start your launcher
     bindsym $mod+d exec $menu
 
+    # Audio control
     bindsym XF86AudioRaiseVolume exec pulsemixer --unmute --change-volume +5 --max-volume 100
     bindsym XF86AudioLowerVolume exec pulsemixer --change-volume -5
     bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
     bindsym XF86AudioMicMute exec pactl set-source-mute @DEFAULT_SOURCE@ toggle
 
+    # Brightness control
     bindsym --locked XF86MonBrightnessUp exec brightnessctl s +5% 
     bindsym --locked XF86MonBrightnessDown exec brightnessctl s 5%-
 
+    # Screenshot with Grim+Slurp
+    bindsym $mod+shift+p exec grim -g "$(slurp -d)" - | wl-copy -t image/png
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
