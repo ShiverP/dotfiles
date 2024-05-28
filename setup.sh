@@ -24,8 +24,9 @@ sudo pacman -S sway zip unzip swayidle sddm firefox htop brightnessctl xdg-deskt
 # Install fonts
 sudo pacman -S ttf-font-awesome nerd-fonts --noconfirm
 
-# Uninstall redundant stuff
-#sudo pacman -Rs foot --noconfirm
+# Set global git config name and password
+git config --global user.name "ShiverP"
+git config --global usern.email "shivamparwat01@gmail.com"
 
 # Install yay
 git clone https://aur.archlinux.org/yay.git
