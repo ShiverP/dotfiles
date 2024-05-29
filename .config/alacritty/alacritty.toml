@@ -10,7 +10,7 @@ opacity = 0.8
 blur = true
 
 [font]
-normal = { family = "RobotoMono Nerd Font" }
+normal = { family = "Roboto Mono Nerd Font" }
 
 [cursor]
 style = {shape = "Underline", blinking = "Never"}

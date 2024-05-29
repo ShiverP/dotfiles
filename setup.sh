@@ -22,7 +22,7 @@ sudo pacman -Syu
 sudo pacman -S sway zip unzip swayidle sddm firefox htop brightnessctl xdg-desktop-portal blueman xdg-desktop-portal-wlr pavucontrol swaybg waybar grim alacritty swaylock wofi slurp xorg-xwayland neofetch curl wget stow alsa-tools pulsemixer github-cli dolphin base-devel fzf zsh neovim solaar steam --noconfirm
 
 # Install fonts
-sudo pacman -S ttf-font-awesome nerd-fonts --noconfirm
+sudo pacman -S ttf-font-awesome ttf-roboto-mono-nerd --noconfirm
 
 # Set global git config name and password
 git config --global user.name "ShiverP"
@@ -48,9 +48,6 @@ stow .
 cd
 
 # Spicetify ricing
-#sudo chmod 777 /opt/spotify -R
-#spicetify config current_theme #Insert theme here I guess?
-#spicetify apply
 
 # Make project directories
 mkdir -p ~/developer/projects
