@@ -61,6 +61,7 @@ output * bg "~/wallpapers/backiee-293500-landscape.jpg" fill
 ### Input configuration
 input "type:keyboard" {
   xkb_options caps:escape
+  xkb_numlock disabled
 }
 
 input "type:pointer" {
