@@ -19,7 +19,7 @@ cd
 sudo pacman -Syu
 
 # Install essential packages
-sudo pacman -S sway zip unzip swayidle sddm htop brightnessctl xdg-desktop-portal blueman xdg-desktop-portal-wlr pavucontrol swaybg waybar grim alacritty swaylock wofi slurp xorg-xwayland neofetch curl wget stow alsa-tools pulsemixer github-cli dolphin base-devel fzf zsh neovim solaar steam --noconfirm
+sudo pacman -S sway zip unzip swayidle sddm tlp htop brightnessctl xdg-desktop-portal blueman xdg-desktop-portal-wlr pavucontrol swaybg waybar grim alacritty swaylock wofi slurp xorg-xwayland neofetch curl wget stow alsa-tools pulsemixer github-cli dolphin base-devel fzf zsh neovim solaar steam --noconfirm
 
 # Install fonts
 sudo pacman -S ttf-font-awesome nerd-fonts --noconfirm
