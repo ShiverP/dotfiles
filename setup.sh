@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # Go into root
 cd /
 
@@ -36,8 +35,7 @@ cd
 rm -rf yay/
 
 # Install yay packages
-yay -S google-chrome spotify webcord multimc-bin autotiling --noconfirm
-yay -S obs-studio-tytan652
+yay -S google-chrome-wayland-vulkan spotify webcord multimc-bin autotiling --noconfirm
 
 # Configure shell
 sudo chsh -s /usr/bin/zsh
@@ -58,7 +56,7 @@ git clone https://github.com/ShiverP/chiclaps.git
 cd
 
 # set up zsh
-zsh
+#zsh
 
 # Enable and start sddm to log in
 sudo systemctl enable sddm
