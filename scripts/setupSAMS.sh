@@ -60,7 +60,7 @@ git clone https://github.com/ShiverP/chiclaps.git
 cd
 
 # Start and set up zsh
-zsh
+#zsh
 
 # Enable and start sddm to log in
 sudo systemctl enable sddm
