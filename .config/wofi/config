@@ -1,0 +1,9 @@
+width=600
+height=400
+location=center
+show=drun
+prompt=
+insensitive=true
+allow_markup=true
+no_actions=true
+gtk_dark=true
