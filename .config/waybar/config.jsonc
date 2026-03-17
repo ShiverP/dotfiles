@@ -112,7 +112,7 @@
     "thermal-zone": 1,
     "format": " {temperatureC}°C",
     "critical-threshold": 80,
-    "format-critical": "{temperatureF}°F "
+    "format-critical": "{temperatureC}°C "
   },
 
   "memory": {
